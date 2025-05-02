@@ -7,7 +7,7 @@ import Amiox from "../assets/Amiox.webp";
 import Portfoilio from "../assets/Portfoilio.webp";
 import ChatApp from "../assets/chatApp.webp";
 import WeatherApp from "../assets/Weather app.webp";
-import pokemonCard from "../assets/PokemonCard.webp";
+import pokemonCard from "../assets/PokemonCards.webp";
 import TodoApp from "../assets/Todoapplication.webp";
 
 const projects = [
