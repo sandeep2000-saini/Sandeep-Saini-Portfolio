@@ -7,7 +7,7 @@ import Amiox from "../assets/Amiox.webp";
 import Portfoilio from "../assets/Portfoilio.webp";
 import ChatApp from "../assets/chatApp.webp";
 import WeatherApp from "../assets/Weather app.webp";
-import pokemonCard from "../assets/PokemonCards.webp";
+import PokemonCard from "../assets/PokemonCards.webp";
 import TodoApp from "../assets/Todoapplication.webp";
 
 const projects = [
@@ -56,7 +56,7 @@ const projects = [
     title: "Pokemon Card",
     description:
       "Pokémon Card Search App is an interactive web project that showcases a collection of Pokémon character cards, each displaying key details like name, power, and other attributes. The core feature of this project is its intelligent search functionality — users can type one or more letters, and the app instantly filters and displays matching Pokémon cards whose names contain the typed characters. This real-time, dynamic search experience was designed to be fast, intuitive, and user-friendly.",
-    image: pokemonCard,
+    image: PokemonCard,
     technologies: ["Frontend","JavaScript", "React.js", "Tailwind CSS"],
     githubLink: "https://github.com/sandeep2000-saini/Pokemon_Card.git",
     liveLink: "#",
