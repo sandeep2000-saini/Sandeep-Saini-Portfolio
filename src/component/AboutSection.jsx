@@ -3,6 +3,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import { motion, useInView } from "framer-motion";
 import Sandeep5 from "../assets/sandeep5.webp";
+import Blob from "../assets/blob.webp";
 
 function AboutMe() {
   const ref = useRef(null);
@@ -19,7 +20,7 @@ function AboutMe() {
       {/* Left Side - Image with Blob Background */}
       <div className="relative w-[16em] sm:w-[20em] md:w-[25em] lg:w-[30em] xl:w-[35em] h-[20em] sm:h-[24em] md:h-[30em] lg:h-[35em] xl:h-[40em]">
         <img
-          src="/src/assets/blob.png"
+          src={Blob}
           alt="Background Blob"
           loading="lazy"
           className="absolute top-4 -left-4 w-[110%] h-[110%] object-contain z-0 opacity-30"
