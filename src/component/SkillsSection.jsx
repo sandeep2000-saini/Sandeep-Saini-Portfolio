@@ -10,7 +10,7 @@ import { motion, useInView } from "framer-motion";
 
 const skillData = [
   {
-    category: "Technical",
+    category: "Front-End",
     icon: <FaCode className="text-pink-500" size={24} />,
     skills: [
       { name: "HTML5", level: 95 },
@@ -52,13 +52,14 @@ const skillData = [
     category: "Tools",
     icon: <FaTools className="text-blue-400" size={24} />,
     skills: [
-      { name: "Git", level: 90 },
-      { name: "GitHub", level: 90 },
+      { name: "Git / GitHub", level: 90 },
+      { name: "Router / Redux Toolkit", level: 90 },
+      { name: "Axios / Fetch API ", level: 80 },
+      { name: "Firebase", level: 70 },
+      { name: "Api Integration", level: 80 },
       { name: "VS Code", level: 95 },
       { name: "Postman", level: 55 },
-      { name: "NPM", level: 85 },
-      { name: "Webpack", level: 70 },
-      { name: "Vite", level: 80 },
+      { name: "Webpack / Vite", level: 70 },
       { name: "GCP Console", level: 65 },
     ],
   },

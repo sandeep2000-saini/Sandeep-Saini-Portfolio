@@ -12,7 +12,6 @@ const HeroSection = () => {
       className="min-h-screen bg-black flex items-center justify-center px-4 sm:px-6 md:px-8 text-white"
     >
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        
         {/* Right Side - Image with Animation */}
         <motion.div
           initial={{ opacity: 0, x: 100 }}
@@ -36,7 +35,9 @@ const HeroSection = () => {
           className="space-y-4 text-center md:text-left order-2 md:order-1"
         >
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight">
-            <span className="text-purple-500 font-heading font-medium">Hello, Future</span>
+            <span className="text-purple-500 font-heading font-medium">
+              Hello, Future
+            </span>
           </h1>
           <h2 className="text-3xl sm:text-4xl font-heading font-bold text-gray-300">
             I'm Sandeep Saini
@@ -45,8 +46,12 @@ const HeroSection = () => {
             Front-End Developer & Digital Craftsman
           </h3>
           <p className="text-gray-400 text-sm sm:text-base font-body max-w-md">
-            Detail-driven <b>Frontend Development</b> specializing in building immersive, high-performance web applications using <b>React.js, Tailwind CSS,</b> and <b>JavaScript</b>.
-            Passionate about turning ideas into dynamic digital realities.
+            I genuinely enjoy paying attention to the <b>smallest details</b>{" "}
+            when building web apps. My focus is on creating <b>smooth</b>,{" "}
+            <b>engaging</b>, and <b>high-performance</b> user experiences. I
+            mostly work with <b>React.js</b>, <b>Tailwind CSS</b>, and{" "}
+            <b>JavaScript</b>—tools I love using to bring <b>ideas to life</b>{" "}
+            on screen in a way that actually feels alive.
           </p>
           <div className="mb-12 sm:mb-0">
             <Link
