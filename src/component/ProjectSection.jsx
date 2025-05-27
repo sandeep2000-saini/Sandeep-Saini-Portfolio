@@ -9,17 +9,19 @@ import ChatApp from "../assets/chatApp.webp";
 import WeatherApp from "../assets/Weather app.webp";
 import PokemonCard from "../assets/PokemonCards.webp";
 import TodoApp from "../assets/Todoapplication.webp";
+import Pixisphere from "../assets/Pixisphere.webp";
+// Importing project images
 
 const projects = [
   {
     id: 1,
-    title: "Amiox Social Media web App",
+    title: "Pixisphere – Photographer Discovery Frontend",
     description:
-      "I independently designed and built Amiox, a unique full-stack social media platform centered around card sharing and card collection rather than traditional follows. Users connect by collecting each other's cards, which appear on both profiles. The app supports real-time updates (Socket.io) and includes features like custom user search with styled Google Maps integration, multimedia posts (photos, videos, shorts, blogs), and a custom-built video player with dynamic controls and seamless playback. Media uploads are optimized using Cloudinary, Multer, FFmpeg, and Sharp for fast, high-quality performance. The platform delivers a polished, error-free UI using React, Tailwind CSS, Framer Motion, and Redux Toolkit for state management..",
-    image: Amiox,
-    technologies: ["Mern", "Frontend", "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB","redux", "Routers"],
-    githubLink: "https://github.com/sandeep2000-saini/Amiox-socail-media-web-app.git",
-    liveLink: "#",
+      "Built a responsive frontend using Next.js (App Router) and Tailwind CSS for a real-world assignment. Pixisphere helps users explore photographers by name, city, price, rating, and style. Features include debounced search, filters, sorting, skeleton loaders, modals, and mobile-first UI. Data comes from a mock JSON Server (Render). Deployed on Vercel. Emphasized modular code, clean architecture, and great UX.",
+    image: Pixisphere,
+    technologies: ["Next.js (App Router)", "Frontend", "JavaScript", "React.js", "Tailwind CSS", "Axios", "use-debounce","JSON Server (Render)", "Vercel (deployment) "],
+    githubLink: "https://github.com/sandeep2000-saini/photographer-profile.git",
+    liveLink: "https://photographer-profile.vercel.app",
   },
   {
     id: 2,
@@ -33,6 +35,17 @@ const projects = [
   },
   {
     id: 3,
+    title: "Amiox Social Media web App",
+    description:
+      "I independently designed and built Amiox, a unique full-stack social media platform centered around card sharing and card collection rather than traditional follows. Users connect by collecting each other's cards, which appear on both profiles. The app supports real-time updates (Socket.io) and includes features like custom user search with styled Google Maps integration, multimedia posts (photos, videos, shorts, blogs), and a custom-built video player with dynamic controls and seamless playback. Media uploads are optimized using Cloudinary, Multer, FFmpeg, and Sharp for fast, high-quality performance. The platform delivers a polished, error-free UI using React, Tailwind CSS, Framer Motion, and Redux Toolkit for state management..",
+    image: Amiox,
+    technologies: ["Mern", "Frontend", "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB","redux", "Routers"],
+    githubLink: "https://github.com/sandeep2000-saini/Amiox-socail-media-web-app.git",
+    liveLink: "#",
+  },
+  
+  {
+    id: 4,
     title: "Talkverse (Chatting Application)",
     description:
       "Talkverse is a real-time chatting application developed in collaboration with Brains Shaper Technology. The app uses Firebase Cloud Messaging (FCM) for push notifications and handles user authentication through Firestore Database, supporting both sign-up and sign-in functionalities. It utilizes SharedPreferences for session management and incorporates FCM tokens to manage user sign-out securely. The user list is dynamically displayed from the Firestore database, and the chat screen is designed with a clean, responsive layout. Talkverse supports real-time messaging with chat data preparation, custom chat adapters, recent conversations display, and user availability tracking. The application ensures seamless communication by integrating push notifications for an engaging user experience..",
@@ -42,7 +55,7 @@ const projects = [
     liveLink: "#",
   },
   {
-    id: 4,
+    id: 5,
     title: "Weather app",
     description:
       "Weather App is a location-based weather application developed in collaboration with Brains Shaper Technology. The app fetches real-time temperature and weather details using the WeatherBit API. It determines the device’s location by accessing its latitude and longitude coordinates, allowing it to display accurate weather information for the current location. The application provides users with a simple and reliable way to check weather updates directly based on their geographic position..",
@@ -52,7 +65,7 @@ const projects = [
     liveLink: "#",
   },
   {
-    id: 5,
+    id: 6,
     title: "Pokemon Card",
     description:
       "Pokémon Card Search App is an interactive web project that showcases a collection of Pokémon character cards, each displaying key details like name, power, and other attributes. The core feature of this project is its intelligent search functionality — users can type one or more letters, and the app instantly filters and displays matching Pokémon cards whose names contain the typed characters. This real-time, dynamic search experience was designed to be fast, intuitive, and user-friendly.",
@@ -62,7 +75,7 @@ const projects = [
     liveLink: "#",
   },
   {
-    id: 6,
+    id: 7,
     title: "Todo-Application",
     description:
       "To-Do Application is a simple yet efficient task management app built to help users stay organized and productive. It allows users to add, edit, delete, and mark tasks as completed in a clean and responsive user interface. The app focuses on intuitive usability, making it easy to manage daily tasks with just a few clicks. Designed with performance and minimalism in mind, it ensures a smooth experience across all devices.",
